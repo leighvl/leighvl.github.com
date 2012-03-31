@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+ 
+ <title>Leigh Villarroel</title>
+ <link href="http://leighvl.github.com/atom.xml" rel="self"/>
+ <link href="http://leighvl.github.com/"/>
+ <updated>2012-03-31T13:29:10-04:00</updated>
+ <id>http://leighvl.github.com</id>
+ <author>
+   <name>Leigh Villarroel</name>
+ </author>
+ 
+ 
+ <entry>
+   <title>Just Another Optimistic Soul</title>
+   <link href="http://leighvl.github.com/blog/Just-Another-Soul-Post"/>
+   <updated>2012-03-31T00:00:00-04:00</updated>
+   <id>http://leighvl.github.com/blog/Just-Another-Soul-Post</id>
+   <content type="html">&lt;div class=&quot;row&quot;&gt;
+    &lt;div class=&quot;span3 columns&quot;&gt;
+    &lt;!--&lt;h3&gt;About this topic&lt;/h3&gt;
+      &lt;p&gt;A sample set of the recipes and instructions used in this post have been created for you to download.&lt;/p&gt;    
+      &lt;p&gt;&lt;a href=&quot;#&quot; target=&quot;_blank&quot; class=&quot;btn btn-info&quot;&gt;Download recipe&lt;/a&gt;&lt;/p&gt;
+      &lt;br/&gt; --&gt;
+      &lt;h3&gt;Topic buzz&lt;/h3&gt;
+      &lt;p&gt;What others are thinking. Add to the conversation and generate some chatter.&lt;/p&gt;
+      &lt;p&gt;&lt;a href=&quot;https://twitter.com/share&quot; class=&quot;twitter-share-button&quot; data-via=&quot;leighvl&quot;&gt;Tweet&lt;/a&gt;&lt;/p&gt;
+      &lt;p&gt;&lt;g:plusone size=&quot;medium&quot;&gt;&lt;/g:plusone&gt;&lt;/p&gt;   
+      &lt;p&gt;&lt;script type=&quot;text/javascript&quot; src=&quot;http://www.reddit.com/buttonlite.js?i=2&amp;styled=off&amp;url=/blog/Just-Another-Soul-Post&amp;newwindow=1&quot;&gt;&lt;/script&gt;&lt;/p&gt;       
+      &lt;br/&gt;
+      &lt;h3&gt;Read later&lt;/h3&gt;
+      &lt;p&gt;&lt;a href=&quot;http://www.instapaper.com/hello2?url=/blog/Just-Another-Soul-Post&amp;title=Just Another Optimistic Soul&quot; title=&quot;Save Just Another Optimistic Soul to Instapaper&quot; target=&quot;_blank&quot;&gt;Save this blog post&lt;/a&gt; for a later read or point of reference.&lt;/p&gt;
+    &lt;/div&gt;
+    &lt;div class=&quot;span9 columns&quot;&gt;
+      &lt;h2&gt;Think Positive..&lt;/h2&gt;
+      &lt;p&gt;My day-to-day approach to life and the unpredictablity it brings has recently been summarized in 'Twitter format' aka 150 characters. &quot;Your negative thoughts can hold you captive. &lt;em&gt;Positive Thinking&lt;/em&gt; and letting go of the past can open your eyes to a whole new world&quot;&lt;/p&gt;
+      &lt;br&gt;
+      &lt;p&gt;The influence of my blog post title comes from one of my favorite Reggae and all around artists... Buju Banton. More specifically, his recent hit single &lt;strong&gt;Optimistic Soul&lt;/strong&gt; before his subsequent incareration.  &lt;/p&gt;
+      &lt;p&gt;Check out the video for &lt;em&gt;Optimistic Soul&lt;/em&gt; below&lt;/p&gt;
+      &lt;iframe width=&quot;455&quot; height=&quot;315&quot; src=&quot;http://www.youtube.com/embed/mxITQYEXgu4&quot; frameborder=&quot;0&quot; allowfullscreen&gt;&lt;/iframe&gt;
+      &lt;p&gt;Optimism will be the general theme of this blog. Taking each opportunity to develop and display my skills and ideas.&lt;/p&gt;
+      &lt;br&gt;
+      &lt;p&gt;However, That's all for now, Nowhere to go but up from here, but in the meanwhile...&lt;/p&gt;
+      &lt;h3&gt;Free Buju!&lt;/h3&gt;
+      &lt;img src=&quot;/img/bujubanton_main.jpg&quot;&gt;  
+      &lt;hr&gt;
+      &lt;hr&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+
+
+
+
+&lt;div class=&quot;row&quot;&gt;
+    &lt;div class=&quot;span3 columns&quot;&gt;&amp;nbsp;&lt;/div&gt;
+    &lt;div class=&quot;span9 column&quot;&gt;
+            &lt;p class=&quot;pull-right&quot;&gt;    &lt;/p&gt;  
+    &lt;/div&gt;
+&lt;/div&gt;
+
+
+
+
+&lt;div class=&quot;row&quot;&gt;
+    &lt;div class=&quot;span3 columns&quot;&gt;&amp;nbsp;&lt;/div&gt;
+    &lt;div class=&quot;span9 columns&quot;&gt;     
+        &lt;h2&gt;Comments Section&lt;/h2&gt;
+        &lt;p&gt;Feel free to comment on the post but keep it clean and on topic.&lt;/p&gt;
+        &lt;div id=&quot;disqus_thread&quot;&gt;&lt;/div&gt;
+        &lt;script type=&quot;text/javascript&quot;&gt;
+            /* * * CONFIGURATION VARIABLES: EDIT BEFORE PASTING INTO YOUR WEBPAGE * * */
+            var disqus_shortname = 'ericjones'; // required: replace example with your forum shortname
+
+            /* * * DON'T EDIT BELOW THIS LINE * * */
+            (function() {
+                var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+                dsq.src = 'http://' + disqus_shortname + '.disqus.com/embed.js';
+                (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+            })();
+        &lt;/script&gt;
+        &lt;noscript&gt;Please enable JavaScript to view the &lt;a href=&quot;http://disqus.com/?ref_noscript&quot;&gt;comments powered by Disqus.&lt;/a&gt;&lt;/noscript&gt;
+        &lt;a href=&quot;http://disqus.com&quot; class=&quot;dsq-brlink&quot;&gt;blog comments powered by &lt;span class=&quot;logo-disqus&quot;&gt;Disqus&lt;/span&gt;&lt;/a&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+
+
+
+
+&lt;!-- Twitter --&gt;
+
+
+&lt;script&gt;!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=&quot;//platform.twitter.com/widgets.js&quot;;fjs.parentNode.insertBefore(js,fjs);}}(document,&quot;script&quot;,&quot;twitter-wjs&quot;);&lt;/script&gt;
+
+
+
+
+&lt;!-- Google + --&gt;
+
+
+&lt;script type=&quot;text/javascript&quot;&gt;
+  (function() {
+    var po = document.createElement('script'); po.type = 'text/javascript'; po.async = true;
+    po.src = 'https://apis.google.com/js/plusone.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(po, s);
+  })();
+&lt;/script&gt;
+
+</content>
+ </entry>
+ 
+ 
+</feed>
