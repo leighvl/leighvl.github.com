@@ -24,7 +24,7 @@ tags: Buju Banton
 	  <h2>Think Positive..</h2>
 	  <p>My day-to-day approach to life and the unpredictablity it brings has recently been summarized in 'Twitter format' aka 150 characters. "Your negative thoughts can hold you captive. <em>Positive Thinking</em> and letting go of the past can open your eyes to a whole new world"</p>
       <br>
-      <p>The influence of my blog post title comes from one of my favorite Reggae and all around artists... Buju Banton. More specifically, his recent hit single <strong>Optimistic Soul</strong> before his subsequent incareration.  </p>
+      <p>The influence of my blog post title comes from one of my favorite Reggae and all around artists... Buju Banton. More specifically, his recent hit single <strong>Optimistic Soul</strong> before his subsequent incarceration.  </p>
       <p>Check out the video for <em>Optimistic Soul</em> below</p>
       <iframe width="455" height="315" src="http://www.youtube.com/embed/mxITQYEXgu4" frameborder="0" allowfullscreen></iframe>
       <p>Optimism will be the general theme of this blog. Taking each opportunity to develop and display my skills and ideas.</p>
