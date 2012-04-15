@@ -1,7 +1,8 @@
 ---
 layout: post
 title: A Standard Login Screen & Best Practices
-categories: [Security, Web Design]
+category: Web Design
+tags: Security
 ---
 
 <div class="row">
