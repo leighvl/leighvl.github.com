@@ -4,12 +4,148 @@
  <title>Leigh Villarroel</title>
  <link href="http://leighvl.github.com/atom.xml" rel="self"/>
  <link href="http://leighvl.github.com/"/>
- <updated>2012-04-11T21:26:20-04:00</updated>
+ <updated>2012-04-14T23:58:31-04:00</updated>
  <id>http://leighvl.github.com</id>
  <author>
    <name>Leigh Villarroel</name>
  </author>
  
+ 
+ <entry>
+   <title>A Standard Login Screen & Best Practices</title>
+   <link href="http://leighvl.github.com/blog/Standard-Login-Practices"/>
+   <updated>2012-04-14T00:00:00-04:00</updated>
+   <id>http://leighvl.github.com/blog/Standard-Login-Practices</id>
+   <content type="html">&lt;div class=&quot;row&quot;&gt;
+    &lt;div class=&quot;span3 columns&quot;&gt;
+      &lt;br/&gt;
+      &lt;h3&gt;Topic buzz&lt;/h3&gt;
+      &lt;p&gt;What others are thinking. Add to the conversation and generate some chatter.&lt;/p&gt;
+      &lt;p&gt;&lt;a href=&quot;https://twitter.com/share&quot; class=&quot;twitter-share-button&quot; data-via=&quot;leighvl&quot;&gt;Tweet&lt;/a&gt;&lt;/p&gt;
+      &lt;p&gt;&lt;g:plusone size=&quot;medium&quot;&gt;&lt;/g:plusone&gt;&lt;/p&gt;  
+      &lt;p&gt;&lt;script type=&quot;text/javascript&quot; src=&quot;http://www.reddit.com/buttonlite.js?i=2&amp;styled=off&amp;url=/blog/Standard-Login-Practices&amp;newwindow=1&quot;&gt;&lt;/script&gt;&lt;/p&gt;     
+      &lt;br/&gt;
+      &lt;h3&gt;Read later&lt;/h3&gt;
+      &lt;p&gt;&lt;a href=&quot;http://www.instapaper.com/hello2?url=/blog/Standard-Login-Practices&amp;title=A Standard Login Screen &amp; Best Practices&quot; title=&quot;Save A Standard Login Screen &amp; Best Practices to Instapaper&quot; target=&quot;_blank&quot;&gt;Save this blog post&lt;/a&gt; for a later read or point of reference.&lt;/p&gt;
+    &lt;/div&gt;
+    &lt;div class=&quot;span9 columns&quot;&gt;
+      &lt;br&gt;
+      &lt;p&gt;When designing a standard Web Portal / Application for business use, there should be at least three main considerations that should be observed in order for the Application to be considered successful:&lt;/p&gt;  
+      &lt;ul&gt;
+        &lt;li&gt;Stability&lt;/li&gt;
+        &lt;li&gt;Straightforwardness of use&lt;/li&gt;
+        &lt;li&gt;Security&lt;/li&gt;
+      &lt;/ul&gt;
+      &lt;br&gt;
+      &lt;p&gt;While the first one is mighty obvious (if the web application doesn’t work, what purpose does it serve?) and may be discussed in future posts in further detail, the purpose of this post is to discuss the two other S’s one should consider in Web Form design; Straightforwardness &amp; Security, and how by giving these priority ensure the former as well. &lt;/p&gt;
+      &lt;br&gt;
+      &lt;p&gt;For a practical example, I chose to look at a regularly found screen on a web page designed for business use: the Login Screen.   Look below at a login screen, which I designed currently for my employer's Facilities Management System.&lt;/p&gt;
+      &lt;hr&gt;
+      &lt;img src=&quot;/img/Login_Screen.png&quot; alt =&quot;Login Screen&quot;&gt;&lt;/img&gt;
+      &lt;hr&gt;
+      &lt;p&gt;There we go… this page is laid out pretty simple, doesn’t it? For a login screen, this is as straight to the point as you can really get without causing the user unnecessary confusion, while at the same time, providing a basic standard of access into a web application. Notice there are really 3 main elements of this web form;&lt;/p&gt;
+      &lt;ol&gt;
+        &lt;li&gt;A User Name textbox&lt;/li&gt;
+        &lt;li&gt;A Password Textbox&lt;/li&gt;
+        &lt;li&gt;A Confirm Button&lt;/li&gt;
+      &lt;/ol&gt;
+      &lt;br&gt;
+      &lt;hr&gt;
+      &lt;h3&gt;Straightforwardness&lt;/h3&gt;
+      &lt;br&gt;
+      &lt;p&gt;The limiting of page elements to a select few to page area helps give the web form a feel of proper organization, while at the same time, effectively simplifying the website for the user. This concept of less on the website being more is very convenient to both the user and developer as this &lt;em&gt;minimalistic&lt;/em&gt; approach will make the web app simple and easy to understand for the user, as well as help reduce the amount of data requested from the website to the browser, thus increasing page load times&lt;/p&gt;
+      &lt;br&gt;
+      &lt;hr&gt;
+      &lt;h3&gt;Security*&lt;/h3&gt;
+      &lt;p&gt;*&lt;em&gt;This is the consideration that really makes or breaks a functional web app in the long run IMO. So Please forgive my rambling&lt;/em&gt;
+      &lt;/p&gt;
+      &lt;br&gt;
+      &lt;p&gt;The main function of a login screen on a web app is to provide a form of user authentication to regulate access to other parts of the web app. By providing a ‘Username’ and a ‘Password’ that match, the page will validate the user with the data provided and grant them continued access to the web app’s pages (which will be different dependent on the level of access for the user). &lt;/p&gt;
+      &lt;br&gt;
+      &lt;p&gt;Besides making the overall web application secure from unauthorized intrusion by hackers and other unwanted persons, Security also encompasses fortifying the code used to create the web page itself and other server side scripting which is run which is necessary for the end usage of the site.&lt;/p&gt;
+      &lt;br&gt;
+      &lt;p&gt;As this Login page is already minimal in nature (Fortunately) , there is not much work to be done in order to harden the page from the ‘usual exploits’, such as the ones listed below.&lt;/p&gt;
+      &lt;ol&gt;
+      &lt;li&gt;SQL Injection&lt;/li&gt;
+      &lt;li&gt;Cross Site Scripting (XSS)&lt;/li&gt;
+      &lt;/ol&gt;
+      &lt;br&gt;
+      &lt;p&gt;N.B.: No definition for these exploits will be given on this post (check related articles below or your friendly neighborhood Google if you are interested in more information). &lt;/p&gt;
+      &lt;br&gt;
+      &lt;p&gt;But one fact to note about the ‘usual exploits’ is that these attacks require the injection of harmful code into the web page, resulting in an adverse effect to the page’s functionality.&lt;/p&gt;
+      &lt;br&gt;
+      &lt;p&gt;Because of this, responsibility is really on the developer to prevent these exploits from occurring, by ensuring proper form validation is carry out on the user input before moving to another page, as well as ‘escaping’ any user entered characters, so that the user input is not treated as an operator in the web site’s scripting.&lt;/p&gt;
+      &lt;hr&gt;
+      &lt;h2&gt;Related Articles / Sources&lt;/h2&gt;
+      &lt;br&gt;
+      
+      &lt;h5&gt;&lt;a href=&quot;http://uxdesign.smashingmagazine.com/2011/05/05/innovative-techniques-to-simplify-signups-and-logins/&quot; target=&quot;_blank&quot;&gt;Innovated Techniques to Simplify Sign Ups &amp; Login Pages&lt;/a&gt;&lt;/h5&gt;
+      &lt;br&gt;
+      &lt;h5&gt;&lt;a href=&quot;https://www.owasp.org/index.php/XSS_(Cross_Site_Scripting)_Prevention_Cheat_Sheet&quot; target=&quot;_blank&quot;&gt;XSS Cheat Sheet&lt;/a&gt;&lt;/h5&gt;
+      &lt;br&gt;
+      &lt;h5&gt;&lt;a href=&quot;https://www.owasp.org/index.php/SQL_Injection_Prevention_Cheat_Sheet&quot; target=&quot;_blank&quot;&gt;SQL Injection Cheat Sheet&lt;/a&gt;&lt;/h5&gt;
+     &lt;/div&gt;
+&lt;/div&gt;
+
+
+
+
+&lt;div class=&quot;row&quot;&gt;
+    &lt;div class=&quot;span3 columns&quot;&gt;&amp;nbsp;&lt;/div&gt;
+    &lt;div class=&quot;span9 column&quot;&gt;
+            &lt;p class=&quot;pull-right&quot;&gt; &lt;a href=&quot;/blog/Just-Another-Soul-Post&quot; title=&quot;Previous Post: Just Another Optimistic Soul&quot;&gt;&lt;i class=&quot;icon-chevron-left&quot;&gt;&lt;/i&gt;&lt;/a&gt;         &lt;/p&gt;  
+    &lt;/div&gt;
+&lt;/div&gt;
+
+
+
+
+&lt;div class=&quot;row&quot;&gt;
+    &lt;div class=&quot;span3 columns&quot;&gt;&amp;nbsp;&lt;/div&gt;
+    &lt;div class=&quot;span9 columns&quot;&gt;     
+        &lt;h2&gt;Comments Section&lt;/h2&gt;
+        &lt;p&gt;Leave your thoughts and opinions on security in the comment section.&lt;/p&gt;
+        &lt;div id=&quot;disqus_thread&quot;&gt;&lt;/div&gt;
+        &lt;script type=&quot;text/javascript&quot;&gt;
+            /* * * CONFIGURATION VARIABLES: EDIT BEFORE PASTING INTO YOUR WEBPAGE * * */
+            var disqus_shortname = 'leighvl'; // required: replace example with your forum shortname
+
+            /* * * DON'T EDIT BELOW THIS LINE * * */
+            (function() {
+                var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+                dsq.src = 'http://' + disqus_shortname + '.disqus.com/embed.js';
+                (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+            })();
+        &lt;/script&gt;
+        &lt;noscript&gt;Please enable JavaScript to view the &lt;a href=&quot;http://disqus.com/?ref_noscript&quot;&gt;comments powered by Disqus.&lt;/a&gt;&lt;/noscript&gt;
+        &lt;a href=&quot;http://disqus.com&quot; class=&quot;dsq-brlink&quot;&gt;blog comments powered by &lt;span class=&quot;logo-disqus&quot;&gt;Disqus&lt;/span&gt;&lt;/a&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+
+
+
+
+&lt;!-- Twitter --&gt;
+
+
+&lt;script&gt;!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=&quot;//platform.twitter.com/widgets.js&quot;;fjs.parentNode.insertBefore(js,fjs);}}(document,&quot;script&quot;,&quot;twitter-wjs&quot;);&lt;/script&gt;
+
+
+
+
+&lt;!-- Google + --&gt;
+
+
+&lt;script type=&quot;text/javascript&quot;&gt;
+  (function() {
+    var po = document.createElement('script'); po.type = 'text/javascript'; po.async = true;
+    po.src = 'https://apis.google.com/js/plusone.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(po, s);
+  })();
+&lt;/script&gt;
+
+</content>
+ </entry>
  
  <entry>
    <title>Just Another Optimistic Soul</title>
@@ -54,7 +190,7 @@
 &lt;div class=&quot;row&quot;&gt;
     &lt;div class=&quot;span3 columns&quot;&gt;&amp;nbsp;&lt;/div&gt;
     &lt;div class=&quot;span9 column&quot;&gt;
-            &lt;p class=&quot;pull-right&quot;&gt;    &lt;/p&gt;  
+            &lt;p class=&quot;pull-right&quot;&gt;      &lt;a href=&quot;/blog/Standard-Login-Practices&quot; title=&quot;Next Post: A Standard Login Screen &amp; Best Practices&quot;&gt;&lt;i class=&quot;icon-chevron-right&quot;&gt;&lt;/i&gt;&lt;/a&gt;      &lt;/p&gt;  
     &lt;/div&gt;
 &lt;/div&gt;
 

@@ -2,7 +2,7 @@
 <html lang="en">
   <head>
     <meta charset="utf-8">
-    <title>Just Another Optimistic Soul</title>
+    <title>A Standard Login Screen & Best Practices</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="">
     <meta name="author" content="">
@@ -67,12 +67,12 @@
 	<div class="marketing">
 	<div class="content">
     <div class="row">
-	<p><h1>Just Another Optimistic Soul</h1></p>	
+	<p><h1>A Standard Login Screen & Best Practices</h1></p>	
 	<div class="span3 column">
-		<h4><strong>March 31, 2012 <small>. Random . <a href="http://leighvl.github.com/blog/Just-Another-Soul-Post#disqus_thread" disqus_url="http://leighvl.github.com/blog/Just-Another-Soul-Post#!newthread"></a></small></strong></h4>
+		<h4><strong>April 14, 2012 <small>.  . <a href="http://leighvl.github.com/blog/Standard-Login-Practices#disqus_thread" disqus_url="http://leighvl.github.com/blog/Standard-Login-Practices#!newthread"></a></small></strong></h4>
 	</div>		
 	<div class="span9 column">
-		<p class="pull-right">    	<a href="/blog/Standard-Login-Practices" title="Next Post: A Standard Login Screen & Best Practices"><i class="icon-chevron-right"></i></a> 	 </p>  
+		<p class="pull-right"> <a href="/blog/Just-Another-Soul-Post" title="Previous Post: Just Another Optimistic Soul"><i class="icon-chevron-left"></i></a> 	    </p>  
 	</div>
 </div>
 <div class="row">
@@ -83,34 +83,73 @@
 
     <div class="row">
     <div class="span3 columns">
-    <!--<h3>About this topic</h3>
-      <p>A sample set of the recipes and instructions used in this post have been created for you to download.</p>    
-      <p><a href="#" target="_blank" class="btn btn-info">Download recipe</a></p>
-      <br/> -->
+      <br/>
       <h3>Topic buzz</h3>
       <p>What others are thinking. Add to the conversation and generate some chatter.</p>
       <p><a href="https://twitter.com/share" class="twitter-share-button" data-via="leighvl">Tweet</a></p>
-      <p><g:plusone size="medium"></g:plusone></p>   
-      <p><script type="text/javascript" src="http://www.reddit.com/buttonlite.js?i=2&styled=off&url=/blog/Just-Another-Soul-Post&newwindow=1"></script></p>       
+      <p><g:plusone size="medium"></g:plusone></p>  
+      <p><script type="text/javascript" src="http://www.reddit.com/buttonlite.js?i=2&styled=off&url=/blog/Standard-Login-Practices&newwindow=1"></script></p>     
       <br/>
       <h3>Read later</h3>
-      <p><a href="http://www.instapaper.com/hello2?url=/blog/Just-Another-Soul-Post&title=Just Another Optimistic Soul" title="Save Just Another Optimistic Soul to Instapaper" target="_blank">Save this blog post</a> for a later read or point of reference.</p>
+      <p><a href="http://www.instapaper.com/hello2?url=/blog/Standard-Login-Practices&title=A Standard Login Screen & Best Practices" title="Save A Standard Login Screen & Best Practices to Instapaper" target="_blank">Save this blog post</a> for a later read or point of reference.</p>
     </div>
     <div class="span9 columns">
-      <h2>Think Positive..</h2>
-      <p>My day-to-day approach to life and the unpredictablity it brings has recently been summarized in 'Twitter format' aka 150 characters. "Your negative thoughts can hold you captive. <em>Positive Thinking</em> and letting go of the past can open your eyes to a whole new world"</p>
       <br>
-      <p>The influence of my blog post title comes from one of my favorite Reggae and all around artists... Buju Banton. More specifically, his recent hit single <strong>Optimistic Soul</strong> before his subsequent incarceration.  </p>
-      <p>Check out the video for <em>Optimistic Soul</em> below</p>
-      <iframe width="455" height="315" src="http://www.youtube.com/embed/mxITQYEXgu4" frameborder="0" allowfullscreen></iframe>
-      <p>Optimism will be the general theme of this blog. Taking each opportunity to develop and display my skills and ideas.</p>
+      <p>When designing a standard Web Portal / Application for business use, there should be at least three main considerations that should be observed in order for the Application to be considered successful:</p>  
+      <ul>
+        <li>Stability</li>
+        <li>Straightforwardness of use</li>
+        <li>Security</li>
+      </ul>
       <br>
-      <p>However, That's all for now, Nowhere to go but up from here, but in the meanwhile...</p>
-      <h3>Free Buju!</h3>
-      <img src="/img/bujubanton_main.jpg">  
+      <p>While the first one is mighty obvious (if the web application doesn’t work, what purpose does it serve?) and may be discussed in future posts in further detail, the purpose of this post is to discuss the two other S’s one should consider in Web Form design; Straightforwardness & Security, and how by giving these priority ensure the former as well. </p>
+      <br>
+      <p>For a practical example, I chose to look at a regularly found screen on a web page designed for business use: the Login Screen.   Look below at a login screen, which I designed currently for my employer's Facilities Management System.</p>
       <hr>
+      <img src="/img/Login_Screen.png" alt ="Login Screen"></img>
       <hr>
-    </div>
+      <p>There we go… this page is laid out pretty simple, doesn’t it? For a login screen, this is as straight to the point as you can really get without causing the user unnecessary confusion, while at the same time, providing a basic standard of access into a web application. Notice there are really 3 main elements of this web form;</p>
+      <ol>
+        <li>A User Name textbox</li>
+        <li>A Password Textbox</li>
+        <li>A Confirm Button</li>
+      </ol>
+      <br>
+      <hr>
+      <h3>Straightforwardness</h3>
+      <br>
+      <p>The limiting of page elements to a select few to page area helps give the web form a feel of proper organization, while at the same time, effectively simplifying the website for the user. This concept of less on the website being more is very convenient to both the user and developer as this <em>minimalistic</em> approach will make the web app simple and easy to understand for the user, as well as help reduce the amount of data requested from the website to the browser, thus increasing page load times</p>
+      <br>
+      <hr>
+      <h3>Security*</h3>
+      <p>*<em>This is the consideration that really makes or breaks a functional web app in the long run IMO. So Please forgive my rambling</em>
+      </p>
+      <br>
+      <p>The main function of a login screen on a web app is to provide a form of user authentication to regulate access to other parts of the web app. By providing a ‘Username’ and a ‘Password’ that match, the page will validate the user with the data provided and grant them continued access to the web app’s pages (which will be different dependent on the level of access for the user). </p>
+      <br>
+      <p>Besides making the overall web application secure from unauthorized intrusion by hackers and other unwanted persons, Security also encompasses fortifying the code used to create the web page itself and other server side scripting which is run which is necessary for the end usage of the site.</p>
+      <br>
+      <p>As this Login page is already minimal in nature (Fortunately) , there is not much work to be done in order to harden the page from the ‘usual exploits’, such as the ones listed below.</p>
+      <ol>
+      <li>SQL Injection</li>
+      <li>Cross Site Scripting (XSS)</li>
+      </ol>
+      <br>
+      <p>N.B.: No definition for these exploits will be given on this post (check related articles below or your friendly neighborhood Google if you are interested in more information). </p>
+      <br>
+      <p>But one fact to note about the ‘usual exploits’ is that these attacks require the injection of harmful code into the web page, resulting in an adverse effect to the page’s functionality.</p>
+      <br>
+      <p>Because of this, responsibility is really on the developer to prevent these exploits from occurring, by ensuring proper form validation is carry out on the user input before moving to another page, as well as ‘escaping’ any user entered characters, so that the user input is not treated as an operator in the web site’s scripting.</p>
+      <hr>
+      <h2>Related Articles / Sources</h2>
+      <br>
+      
+      <h5><a href="http://uxdesign.smashingmagazine.com/2011/05/05/innovative-techniques-to-simplify-signups-and-logins/" target="_blank">Innovated Techniques to Simplify Sign Ups & Login Pages</a></h5>
+      <br>
+      <h5><a href="https://www.owasp.org/index.php/XSS_(Cross_Site_Scripting)_Prevention_Cheat_Sheet" target="_blank">XSS Cheat Sheet</a></h5>
+      <br>
+      <h5><a href="https://www.owasp.org/index.php/SQL_Injection_Prevention_Cheat_Sheet" target="_blank">SQL Injection Cheat Sheet</a></h5>
+     </div>
 </div>
 
 
@@ -119,7 +158,7 @@
 <div class="row">
     <div class="span3 columns">&nbsp;</div>
     <div class="span9 column">
-            <p class="pull-right">      <a href="/blog/Standard-Login-Practices" title="Next Post: A Standard Login Screen & Best Practices"><i class="icon-chevron-right"></i></a>      </p>  
+            <p class="pull-right"> <a href="/blog/Just-Another-Soul-Post" title="Previous Post: Just Another Optimistic Soul"><i class="icon-chevron-left"></i></a>         </p>  
     </div>
 </div>
 
@@ -130,7 +169,7 @@
     <div class="span3 columns">&nbsp;</div>
     <div class="span9 columns">     
         <h2>Comments Section</h2>
-        <p>Feel free to comment on the post but keep it clean and on topic.</p>
+        <p>Leave your thoughts and opinions on security in the comment section.</p>
         <div id="disqus_thread"></div>
         <script type="text/javascript">
             /* * * CONFIGURATION VARIABLES: EDIT BEFORE PASTING INTO YOUR WEBPAGE * * */
@@ -178,13 +217,13 @@
 
      <!-- Footer -->
       <footer class="footer">			
-		<p class="pull-right">  |  <a href="#">Back to top</a>  |   	<a href="/blog/Standard-Login-Practices" title="Next Post: A Standard Login Screen & Best Practices">Next Blog Post &raquo; </a> 	 </p>        
+		<p class="pull-right"> <a href="/blog/Just-Another-Soul-Post" title="Previous Post: Just Another Optimistic Soul">&laquo; Previous Blog Post</a> 	  |  <a href="#">Back to top</a>  |   </p>        
 		<p>Designed and built using <a href="http://twitter.github.com/bootstrap/" target="_blank">Twitter Bootstrap</a>, <a href="http://jekyllrb.com/"  target="_blank">Jekyll</a>, and slightly modified by <a href="https://github.com/leighvl" target="_blank">Leighvl</a>.</p>
         <p>Code licensed under the <a href="http://www.apache.org/licenses/LICENSE-2.0" target="_blank">Apache License v2.0</a>. Documentation licensed under <a href="http://creativecommons.org/licenses/by/3.0/">CC BY 3.0</a>.</p>
         <p>Icons from <a href="http://glyphicons.com">Glyphicons Free</a>, licensed under <a href="http://creativecommons.org/licenses/by/3.0/">CC BY 3.0</a>.</p>
 		<p>Comments platform provided by <a href="http://disqus.com/" target="_blank">Disqus</a>.</p>		
 		<br/>
-		<p><a href="https://twitter.com/leighvl" class="twitter-follow-button" data-show-count="false">Follow @leighvl</a> <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="//platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>&nbsp;<a href="http://news.ycombinator.com/submitlink?u=http://leighvl.github.com/blog/Just-Another-Soul-Post&t=Just Another Optimistic Soul" target="_blank"><img src="/img/yc500.gif" title="Submit Just Another Optimistic Soul to Hacker News" /></a></p>		
+		<p><a href="https://twitter.com/leighvl" class="twitter-follow-button" data-show-count="false">Follow @leighvl</a> <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="//platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>&nbsp;<a href="http://news.ycombinator.com/submitlink?u=http://leighvl.github.com/blog/Standard-Login-Practices&t=A Standard Login Screen & Best Practices" target="_blank"><img src="/img/yc500.gif" title="Submit A Standard Login Screen & Best Practices to Hacker News" /></a></p>		
       </footer>
 
  </div><!-- /container -->
